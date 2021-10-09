@@ -7,9 +7,13 @@ Just follow bellow steps.
 
 ### Go to virtual box device settings options 
    >> Go to usb settings 
+   >> 
    >> Add usb filters of the tplink adapter Realtek 802.11n NIC
+   >> 
    >> Go to usb filters setings of Realtek 802.11n NIC
+   >> 
    >> Clear all field except Name, Vendor ID , Product ID
+   >> 
    >> save 
 ### Check if Kali is showing available wifi networks then all ok
 
