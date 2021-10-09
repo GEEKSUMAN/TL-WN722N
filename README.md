@@ -16,76 +16,54 @@ Just follow bellow steps.
 
 ┌──(root💀sherspect)-[~]
 └─# lsusb
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#
+
 ┌──(root💀sherspect)-[~]
 └─# iwconfig
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#
+
 ┌──(root💀sherspect)-[~]
 └─# sudo -i
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#
+
 ┌──(root💀sherspect)-[~]
 └─# apt install realtek-rtl8188* -y  
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#       
+
 ┌──(root💀sherspect)-[~]
 └─# pwd
-/root
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#
+
 ┌──(root💀sherspect)-[~]
 └─# echo "blacklist r8188eu.ko" › "/etc/modprobe.d/realtek.conf"
-┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#
+
 ┌──(root💀sherspect)-[~]
 └─# git clone https://github.com/aircrack-ng/rtl8188eus.git
+
 ┌──(root💀sherspect)-[~]
 └─# cd rtl8188eus
+
 ┌──(root💀sherspect)-[~]
 └─# make
+
 ┌──(root💀sherspect)-[~]
 └─# make install
+
 ┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
 └─# reboot
 
 ┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
-└─#┌──(root💀sherspect)-[~]
 └─# ### check Tp-Link TL-WN722N WiFi Adapter is connected in virtual box ###
-┌──(root💀sherspect)-[~]
-└─# 
+
 ┌──(root💀sherspect)-[~]
 └─# airmon-ng check kill
+
 ┌──(root💀sherspect)-[~]
 └─# ifconfig wlan0 down
+
 ┌──(root💀sherspect)-[~]
 └─# iwconfig wlan0 mode  monitor 
+
 ┌──(root💀sherspect)-[~]
 └─# iwconfig
 
 💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀
 
-### If you like share my repo , it will be token of love for me <3 #####
+### If you like it ; share my repo , it will be token of love for me <3 #####
 
 
